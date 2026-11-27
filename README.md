@@ -5,7 +5,10 @@ Find cafés near any place — no API key, no account, no backend, no build step
 Type a neighbourhood, city or postcode (or allow location access) and get real
 cafés from OpenStreetMap, sorted by walking distance, with map and route links.
 
-**[Live demo](https://obiriandrewm-create.github.io/cafe-finder/)** · `?demo=1` renders offline from a bundled fixture.
+**Run it:** `node scripts/serve.js` → <http://localhost:5173> · `?demo=1` renders offline from a bundled fixture.
+
+To publish it: **Settings → Pages → Source: `main` / root**. No build step, so the
+repository root *is* the deployable artifact.
 
 ---
 
