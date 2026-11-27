@@ -1,20 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafe Finder</title>
-    <link rel="stylesheet" href="assets/tokens.css">
-    <link rel="stylesheet" href="assets/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Finder — find coffee near anywhere</title>
+  <meta name="description" content="Find cafes near any place, with no API keys and no backend. Powered by OpenStreetMap, Photon and Nominatim.">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-    <div class="cafe-finder">
-        <header>
-            <h1>Cafe Finder</h1>
-            <input type="search" placeholder="Search cafes..." data-search>
-        </header>
-        <main data-results></main>
+  <a class="skip-link" href="#results">Skip to results</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="wordmark" href="./" aria-label="Cafe Finder home">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+          <path d="M4 8h12v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+          <path d="M16 9h1.8a2.2 2.2 0 0 1 0 4.4H16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M7 3.2c0 .9.9 1.2.9 2.1M11 3.2c0 .9.9 1.2.9 2.1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span>Cafe&nbsp;Finder</span>
+      </a>
+      <button class="icon-btn" type="button" data-theme-toggle aria-pressed="true" aria-label="Toggle light mode">
+        <span class="icon-btn__glyph" aria-hidden="true">☾</span>
+      </button>
     </div>
-    <script type="module" src="src/app.js"></script>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <h1>Find coffee near anywhere.</h1>
+      <p class="hero__lede">
+        Real places from OpenStreetMap. No API key, no account, no backend —
+        type a place or use your location.
+      </p>
+
+      <form class="search" data-form role="search" novalidate>
+        <div class="field">
+          <label class="field__label" for="place">Near</label>
+          <input class="field__input" id="place" name="place" type="search"
+                 placeholder="e.g. Shoreditch, Lisbon, 90210" autocomplete="off"
+                 spellcheck="false" data-place>
+        </div>
+
+        <button class="btn btn--solid" type="submit" data-submit>Search</button>
+
+        <button class="btn btn--ghost" type="button" data-geolocate
+                title="Use my current location">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+            <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".55"/>
+            <path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <span>Near me</span>
+        </button>
+      </form>
+
+      <div class="controls">
+        <div class="chips" role="group" aria-label="Sort results">
+          <button class="chip" type="button" data-sort="nearest" aria-pressed="true">Nearest</button>
+          <button class="chip" type="button" data-sort="name" aria-pressed="false">A–Z</button>
+          <button class="chip" type="button" data-unnamed aria-pressed="false">Hide unnamed</button>
+        </div>
+
+        <label class="select">
+          <span class="select__label">Within</span>
+          <select data-radius>
+            <option value="500">500 m</option>
+            <option value="1000">1 km</option>
+            <option value="2000" selected>2 km</option>
+            <option value="5000">5 km</option>
+            <option value="0">Any distance</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="results" id="results" aria-labelledby="results-heading">
+      <div class="results__head">
+        <h2 id="results-heading">Results</h2>
+        <p class="results__meta" data-meta aria-live="polite">Nothing searched yet.</p>
+      </div>
+
+      <p class="notice" data-notice hidden></p>
+
+      <ul class="cards" data-list></ul>
+
+      <div class="state" data-state="idle">
+        <p class="state__title" data-state-title>Try a place</p>
+        <p class="state__body" data-state-body>
+          Search a neighbourhood, city or postcode — or let the browser locate you.
+        </p>
+        <button class="btn btn--ghost" type="button" data-demo>Load demo data</button>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>
+        Place data © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors.
+        Geocoding by <a href="https://photon.komoot.io/" rel="noopener">Photon</a> and
+        <a href="https://nominatim.openstreetmap.org/" rel="noopener">Nominatim</a>.
+        Results are community-maintained and may be out of date — check hours before you go.
+      </p>
+    </footer>
+  </main>
+
+  <div class="sr-only" role="status" aria-live="polite" data-sr-status></div>
+
+  <script type="module" src="src/app.js"></script>
 </body>
 </html>

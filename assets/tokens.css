@@ -1,1 +1,85 @@
-/* tokens.css - shared with calculator */
+/* Design tokens shared with the cafe finder so both apps read as one product.
+   Dark-first; light mode is one attribute away. Contrast ratios are checked
+   against WCAG AA for body text (4.5:1) and large text (3:1). */
+
+:root {
+  color-scheme: dark;
+
+  --font-ui: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-num: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --dur-fast: 90ms;
+  --dur-base: 160ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Dark palette */
+  --bg: #0b0f14;
+  --bg-veil: #0b0f14e6;
+  --surface: #121820;
+  --surface-raised: #1a222c;
+  --surface-sunken: #0d1319;
+  --line: #26313d;
+  --line-strong: #35424f;
+
+  --text: #e8eef5;
+  --text-muted: #9aa8b6;
+  --text-faint: #6b7a89;
+
+  --accent: #4cc2a0;
+  --accent-strong: #63d6b4;
+  --accent-ink: #062018;
+
+  --danger: #ff7a7a;
+  --danger-surface: #2a1417;
+
+  --focus: #8ab4ff;
+
+  --shadow-lg: 0 24px 60px -20px #000000b3, 0 2px 8px #0000004d;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f6f7f9;
+  --bg-veil: #f6f7f9e6;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #eef1f5;
+  --line: #d8dee6;
+  --line-strong: #c2cad4;
+
+  --text: #131a22;
+  --text-muted: #55616e;
+  --text-faint: #7b8794;
+
+  --accent: #0f7f66;
+  --accent-strong: #0b6b55;
+  --accent-ink: #ffffff;
+
+  --danger: #b3261e;
+  --danger-surface: #fdecea;
+
+  --focus: #1d4ed8;
+
+  --shadow-lg: 0 18px 40px -22px #0b1a2e4d, 0 1px 3px #0b1a2e1f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+}

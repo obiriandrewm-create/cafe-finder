@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Unit tests (no dependencies to install)
+        run: node --test test/
+      - name: Assert the demo fixture is valid JSON with real features
+        run: |
+          node -e "
+            const d = require('./data/cafes-demo.json');
+            if (!Array.isArray(d.features) || d.features.length < 10) {
+              console.error('demo fixture missing or too small'); process.exit(1);
+            }
+            const bad = d.features.filter(f => !f.properties || !f.properties.name);
+            if (bad.length) { console.error(bad.length + ' unnamed features'); process.exit(1); }
+            console.log('demo fixture ok:', d.features.length, 'places');
+          "

@@ -1,0 +1,16 @@
+{
+  "name": "cafe-finder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find cafes near any place using free OpenStreetMap services — no API keys, no backend, no build step.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test test/",
+    "demo": "node scripts/serve.js --port 5175"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

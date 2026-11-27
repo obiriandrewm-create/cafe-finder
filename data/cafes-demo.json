@@ -1,0 +1,1073 @@
+{
+ "note": "Real OpenStreetMap place data, fetched from Photon for offline demo use. © OpenStreetMap contributors, ODbL 1.0.",
+ "fetched": "2026-11-27",
+ "origin": {
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "label": "central Paris (demo)"
+ },
+ "label": "central Paris (demo)",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 706128132,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "39",
+    "name": "Cafe Mélia",
+    "street": "Rue Beaubourg",
+    "locality": "Quartier Sainte-Avoye",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75003",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3537712,
+     48.8621382
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 710316718,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "160",
+    "name": "Cafe janine",
+    "street": "Rue du Temple",
+    "locality": "Quartier des Enfants-Rouges",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75003",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3611105,
+     48.8658753
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 541201919,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Cafe Français",
+    "street": "Place de la Bastille",
+    "locality": "Quartier de l'Arsenal",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75004",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.368004,
+     48.8530786
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 4984367626,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Cafe Tunis",
+    "street": "Rue des Couronnes",
+    "locality": "Belleville",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75020",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.384078,
+     48.870234
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1222301121,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "150",
+    "name": "Cafe Le Petit Trou",
+    "street": "Rue du Landy",
+    "locality": "Le Landy",
+    "district": "Pleyel - Confluence",
+    "city": "Saint-Denis",
+    "county": "Seine-Saint-Denis",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "93210",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3485983,
+     48.9148386
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 9530629127,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Cafe de la Gare",
+    "street": "Avenue de la République",
+    "locality": "Le Pré Gentil",
+    "city": "Rosny-sous-Bois",
+    "county": "Seine-Saint-Denis",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "93110",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.4847092,
+     48.8706298
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 13328384233,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Cafet'O",
+    "street": "Rue Paul Vaillant-Couturier",
+    "locality": "Jardin Parisien",
+    "city": "Clamart",
+    "county": "Hauts-de-Seine",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "92140",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.2668461,
+     48.8015428
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 408952536,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café des 2 Moulins",
+    "street": "Rue Cauchois",
+    "locality": "Quartier des Grandes-Carrières",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75018",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.333654,
+     48.8849197
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 251699776,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café de Flore",
+    "street": "Rue Saint-Benoît",
+    "locality": "Saint-Germain-des-Prés",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75006",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3326307,
+     48.8541444
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "W",
+    "osm_id": 63600763,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café",
+    "street": "Boulevard Jean Jaurès",
+    "city": "Corbeil-Essonnes",
+    "county": "Essonne",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "91100",
+    "countrycode": "FR",
+    "extent": [
+     2.4668984,
+     48.6056299,
+     2.4670623,
+     48.6054947
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.4669767,
+     48.6055698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 5905667307,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "28",
+    "name": "CAFéS",
+    "street": "Rue des Saints-Pères",
+    "locality": "Quartier Saint-Thomas-d'Aquin",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75007",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.330632,
+     48.8557833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1828149078,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café M",
+    "street": "Rue du Faubourg Montmartre",
+    "locality": "Quartier du Faubourg-Montmartre",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75009",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3401745,
+     48.8761627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 13720597344,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café U",
+    "street": "Rue des Remparts",
+    "city": "Saint-Arnoult-en-Yvelines",
+    "county": "Yvelines",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "78730",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.9371107,
+     48.5721761
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 251125927,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café des Phares",
+    "street": "Place de la Bastille",
+    "locality": "Quartier de l'Arsenal",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75004",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.368253,
+     48.8536169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 689144551,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "1",
+    "name": "Café du Cadran",
+    "street": "Rue Daunou",
+    "locality": "Gaillon",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75002",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3325864,
+     48.8690244
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 6760369567,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Bogato",
+    "street": "Rue Saint-Merri",
+    "locality": "Quartier Saint-Merri",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75004",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3533027,
+     48.8590932
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 5712090155,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "8",
+    "name": "Café du Chatelet",
+    "street": "Rue Saint-Denis",
+    "locality": "Saint-Germain-l'Auxerrois",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75001",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3475839,
+     48.8584334
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 12620835903,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "26",
+    "name": "Café Maxime Frédéric at LV",
+    "street": "Quai de la Mégisserie",
+    "locality": "Saint-Germain-l'Auxerrois",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75001",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3429042,
+     48.8585088
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1265029228,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "60",
+    "name": "Café du Métro",
+    "street": "Boulevard Saint-Germain",
+    "locality": "Quartier de la Sorbonne",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75005",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.348342,
+     48.8503408
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 2003233906,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "23",
+    "name": "Café Étienne",
+    "street": "Rue Pierre Lescot",
+    "locality": "Les Halles",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75001",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.348932,
+     48.8636482
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 6953456128,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Frappé",
+    "street": "Rue Guénégaud",
+    "locality": "Quartier de la Monnaie",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75006",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3394806,
+     48.8563147
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 12246769914,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Cortado",
+    "street": "Rue Charlot",
+    "locality": "Quartier des Enfants-Rouges",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75003",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3619254,
+     48.8624225
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 2388379368,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "41",
+    "name": "Café des Mousquétaires",
+    "street": "Rue Saint-Antoine",
+    "locality": "Quartier de l'Arsenal",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75004",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3647398,
+     48.8537881
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 315769033,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Lola",
+    "street": "Rue de Buci",
+    "locality": "Quartier de la Monnaie",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75006",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.338277,
+     48.8536059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 293982742,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "9",
+    "name": "Café République",
+    "street": "Place de la République",
+    "locality": "Quartier des Enfants-Rouges",
+    "district": "Le Marais",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75003",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3638798,
+     48.8667246
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 10179545283,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café de Paris",
+    "street": "Rue de l'Échelle",
+    "locality": "Quartier du Palais Royal",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75001",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3339096,
+     48.8636637
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 8636699661,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Dalayrac",
+    "street": "Rue Dalayrac",
+    "locality": "Gaillon",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75002",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3348663,
+     48.8674631
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 5864951028,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Madame",
+    "street": "Rue de Vaugirard",
+    "locality": "Quartier de l'Odéon",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75006",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3317867,
+     48.8483654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 9247842748,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Kitsuné",
+    "street": "Rue de Rivoli",
+    "locality": "Quartier Vendôme",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75001",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.330284,
+     48.864472
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 12236193901,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "38",
+    "name": "Café Pli",
+    "street": "Rue du Faubourg du Temple",
+    "locality": "Quartier de la Folie-Méricourt",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75011",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3687512,
+     48.8691529
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 687096685,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "2",
+    "name": "Café Jirisan",
+    "street": "Rue de Marivaux",
+    "locality": "Vivienne",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75002",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3373644,
+     48.8703656
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 788002163,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Guynemer",
+    "street": "Rue Vavin",
+    "locality": "Quartier Notre-Dame-des-Champs",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75006",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3323563,
+     48.8447355
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 971476013,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Noir",
+    "street": "Rue Richer",
+    "locality": "Quartier du Faubourg-Montmartre",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75009",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3443116,
+     48.8739711
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1488772089,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Parisien 10ème",
+    "street": "Rue du Faubourg Saint-Denis",
+    "locality": "Quartier Saint-Vincent-de-Paul",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75010",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3560335,
+     48.8770265
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 9770537755,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Premier",
+    "street": "Boulevard Arago",
+    "locality": "Croulebarbe",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75013",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3500556,
+     48.8359886
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1583624750,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Maasaï",
+    "street": "Rue Paul Klee",
+    "locality": "Quartier de la Salpêtrière",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75013",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3702978,
+     48.8388484
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 2334291868,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "9",
+    "name": "Café de l'Opéra",
+    "street": "Rue de Mogador",
+    "locality": "Quartier de la Chaussée-d'Antin",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75009",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3311552,
+     48.8738516
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 9748958012,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "1",
+    "name": "Café de la Maison du Zéro Déchet",
+    "street": "Passage Emma Calvé",
+    "locality": "Quartier de Picpus",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75012",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3856785,
+     48.8484601
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 1826159121,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "name": "Café Noisette",
+    "street": "Place Claude Bourdet",
+    "locality": "Croulebarbe",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75013",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3472247,
+     48.8329777
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_type": "N",
+    "osm_id": 7278899685,
+    "osm_key": "amenity",
+    "osm_value": "cafe",
+    "type": "house",
+    "housenumber": "19",
+    "name": "Café Bohème",
+    "street": "Boulevard Edgar Quinet",
+    "locality": "Quartier du Montparnasse",
+    "district": "Paris",
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "France",
+    "postcode": "75014",
+    "countrycode": "FR"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3239326,
+     48.8411854
+    ]
+   }
+  }
+ ]
+}
